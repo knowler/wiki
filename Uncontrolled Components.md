@@ -12,7 +12,7 @@ function UncontrolledInput() {
   const firstNameRef = useRef();
   
   useEffect(() => {
-    // Take a copy of the input so it exists for clean [up](up)
+    // Take a copy of the input so it exists for clean up
     const firstNameInput = firstNameRef.current;
     
     firstNameInput.addEventListener('input', handleFirstNameChange);
